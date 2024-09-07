@@ -47,11 +47,12 @@ The playbook uses a single role named `manage_dell_servers` located in `roles/ma
 
 2. **Run the Playbook**: Use the `ansible-playbook` command to execute the playbook. You can limit the execution to specific groups or hosts using the `--limit` option.
 
-   To run the playbook for the `control_plane` group:
+To run the playbook for the `control_plane` group:
    ```bash
    ansible-playbook -i inventory/all.yml playbook.yml --limit control_plane
-
-   To run the playbook for the `eject` tag:
+   ```
+To run the playbook for the `eject` tag:
    ```bash
    ansible-playbook -i inventory/all.yml playbook.yml 
    -t eject
+   ```
