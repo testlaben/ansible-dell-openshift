@@ -1,0 +1,6 @@
+---
+- name: Manage Dell server boot and virtual media
+  hosts: all
+  gather_facts: false
+  roles:
+    - manage_dell_servers

@@ -1,0 +1,15 @@
+control_plane:
+  hosts:
+    control1:
+      idrac_ip: 192.168.1.10
+      # The below variables are defined in group_vars/control_plane.yml
+      # Override by uncommenting and setting separate values.
+      # idrac_username: root
+      # idrac_password: your_password
+      # iso_url: http://example.com/your_iso.iso
+
+    control2:
+      idrac_ip: 192.168.1.11
+      # idrac_username: root
+      # idrac_password: your_password
+      # iso_url: http://example.com/your_iso.iso

@@ -1,0 +1,15 @@
+worker:
+  hosts:
+    worker1:
+      idrac_ip: 192.168.1.22
+      # The below variables are defined in group_vars/worker.yml
+      # Override by uncommenting and setting separate values.
+      # idrac_username: root
+      # idrac_password: your_password
+      # iso_url: http://example.com/your_iso.iso
+
+    worker2:
+      idrac_ip: 192.168.1.23
+      # idrac_username: root
+      # idrac_password: your_password
+      # iso_url: http://example.com/your_iso.iso
