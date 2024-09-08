@@ -1,6 +1,16 @@
 # Dell Server management playbook
 A quick playbook for mounting the agent-based iso to iDRAC and powering on the nodes
 
+> [!NOTE]
+> This playbook and role has not been tested as I don't have access to an iDRAC at the moment. Mileage might vary. Please raise an issue or PR if something needs to be changed.
+
+## Requirements
+
+`python >= 3.9.6`
+
+You might already have this collection installed if you are using the ansible package. It is not included in ansible-core. To check whether it is installed, run `ansible-galaxy collection list`.
+
+To install it, use: `ansible-galaxy collection install dellemc.openmanage`
 ## Directory Structure
 
 The project directory is organized as follows:
